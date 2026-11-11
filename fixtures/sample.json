@@ -1,0 +1,17 @@
+{
+  "manifest": {
+    "voyage": "V1",
+    "station": "S1",
+    "generation": 1,
+    "members": [
+      {
+        "name": "depth.csv",
+        "size": 4,
+        "digest": "52186c933993da4082b3cdc7c40bb4bf735b391ff54a2ef78c037dda6c38a680"
+      }
+    ]
+  },
+  "files": {
+    "depth.csv": "MSwyCg=="
+  }
+}

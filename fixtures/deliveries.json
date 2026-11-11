@@ -1,0 +1,41 @@
+{
+  "events": [
+    {
+      "type": "manifest",
+      "voyage": "V1",
+      "station": "S1",
+      "generation": 1,
+      "sealed": false,
+      "members": [
+        "a.csv",
+        "b.csv"
+      ]
+    },
+    {
+      "type": "member",
+      "name": "a.csv",
+      "generation": 1
+    },
+    {
+      "type": "seal",
+      "generation": 1
+    },
+    {
+      "type": "member",
+      "name": "b.csv",
+      "generation": 1
+    },
+    {
+      "type": "manifest",
+      "generation": 2,
+      "sealed": true,
+      "members": [
+        "a.csv"
+      ]
+    },
+    {
+      "type": "crash",
+      "point": "before_promote"
+    }
+  ]
+}
